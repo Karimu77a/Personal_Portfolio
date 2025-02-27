@@ -675,3 +675,101 @@ footer {
         footer p {
             color: #777;
         }
+
+
+        /* Default styles remain the same, just add media queries for responsiveness */
+
+/* General Styles for Mobile */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 10px;
+        display: block;
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-image img {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .hero-text h1 {
+        font-size: 22px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* About Section */
+    .containery {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 60%;
+    }
+
+    .ap {
+        font-size: 14px;
+    }
+
+    /* Skills Section */
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-section {
+        width: 90%;
+    }
+
+    /* Projects */
+    .grid-container,
+    .grid-container1 {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Contact Section */
+    .containerz {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 90%;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+}
